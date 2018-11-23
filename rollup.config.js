@@ -8,7 +8,7 @@ import gzipPlugin from "rollup-plugin-gzip"
 import terserPlugin from "rollup-plugin-terser"
 
 export default {
-    input: "src/main.js",
+    input: "index.js",
     output: {
         file: "dist/bundle.js",
         format: "iife"
